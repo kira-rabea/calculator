@@ -3,14 +3,36 @@ body{
     text-align: center;
     background-color: floralwhite;
 }
-#hauptcontainer{
+
+h1{
+    color: rgb(105, 100, 90);
+}
+
+#mainContainer{
     display: grid;
     justify-content: center;
     align-items: center;
 }
-h1{
+
+#outputBox{
+    width: 240px;
+    height: 100px;
+    margin: 10px;
+    background-color: aliceblue;
+    border: 0px;
+    border-radius: 20%;
     color: rgb(93, 138, 93);
+    font-size: 40px;
+    text-align: left;
+    float: left;
+    
 }
+#output{
+    margin: 30px;
+    text-align: end;
+    float: right;
+}
+
 button{
     width: 100px;
     height: 100px;
@@ -26,26 +48,30 @@ button{
 button:hover{
     background-color: rgb(93, 138, 93) ;
 }
-#ausgabefeld{
-    width: 240px;
-    height: 100px;
-    margin: 10px;
-    background-color: aliceblue;
-    border: 0px;
-    border-radius: 20%;
-    color: rgb(93, 138, 93);
-    
-    font-size: 40px;
-    text-align: left;
-    float: left;
-    
+
+#buttonEqual{
+    float: right;    
+}
+
+.funcButton{
+    background-color: rgb(155, 150, 140);
+}
+.funcButton:hover{
+    background-color: rgb(105, 100, 90);
+}
+
+footer{
+    padding: 10px;
+    background-color: floralwhite;
 }
 p{
-    margin: 30px;
-    text-align: end;
-
+    text-align: center;
+    margin: 10px;
 }
-#buttonGleich {
-    float: right;    
-    
+a{
+    color: rgb(155, 150, 140);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(105, 100, 90);
 }
