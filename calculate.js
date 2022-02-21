@@ -83,7 +83,7 @@ function setSecondNum(num){
     if(operatorPlus){
         document.getElementsByTagName('p')[0].innerHTML = (firstNumber + ' + ' + secondNumber);
     } else {
-        document.getElementsByTagName('p')[0].innerHTML = (firstNumber + ' + ' + secondNumber);
+        document.getElementsByTagName('p')[0].innerHTML = (firstNumber + ' - ' + secondNumber);
     }
 
 }
