@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: floralwhite;
+}
+#hauptcontainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(93, 138, 93);
+}
+button{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color:darkseagreen;
+    border: 0px;
+    border-radius: 20%;
+    color: aliceblue;
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: rgb(93, 138, 93) ;
+}
+#ausgabefeld{
+    width: 240px;
+    height: 100px;
+    margin: 10px;
+    background-color: aliceblue;
+    border: 0px;
+    border-radius: 20%;
+    color: rgb(93, 138, 93);
+    
+    font-size: 40px;
+    text-align: left;
+    float: left;
+    
+}
+p{
+    margin: 30px;
+    text-align: end;
+
+}
+#buttonGleich {
+    float: right;    
+    
+}
